@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Nunito+Sans:ital,wght@0,300;0,400;1,200&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(187, 66, 9);
+    /* color:azure; */
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+   }
+
+.key {
+    display: inline-flex;
+    position: relative;
+    border: 1px solid #999;
+    background-color: #eee;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.1);
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 150px;
+}
+
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(10, 9, 9);
+    font-size: 14px;
+}
